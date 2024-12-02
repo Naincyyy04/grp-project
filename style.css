@@ -11,28 +11,44 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(135deg, #6a11cb 0%, #43dff7 100%);
+    background-image: url('hd.jpg'); /* Example image */
+    background-size: cover;       /* Ensures the image covers the entire background */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center;
 }
 
 .container {
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(162, 233, 235, 0.9);
     padding: 50px;
     border-radius: 15px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-    width: 300px;
+    width: 350px;
 }
 
 .content h1 {
     font-size: 2.5rem;
+    font-weight: bold;
+    font-family: "Pacifico", "Times New Roman", serif;
     color: #333;
     margin-bottom: 20px;
 }
 
 .content p {
     font-size: 1.2rem;
+    font-weight: bold;
+    font-style: oblique;
+    font-family: "Caveat",cursive;
     color: #555;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+}
+.user{
+    font-size: 1.1rem;
+    font-weight: bold;
+    font-style: oblique;
+    font-family: "Caveat",cursive;
+    color: #555;
+    margin-bottom: 20px;
 }
 
 .login-button {
@@ -40,14 +56,16 @@ body {
     color: rgb(160, 222, 231);
     border: none;
     padding: 15px 30px;
+    margin: 20px;
     font-size: 1.3rem;
+    font-weight: bold;
     border-radius: 25px;
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 .login-button:hover {
-    background-color: #6a11cb;
+    background-color: #3b28b6;
     transform: scale(1.05);
 }
 
@@ -55,7 +73,14 @@ body {
     background-color: #4a00e0;
     transform: scale(1);
 }
-
+a{
+    color: rgb(43, 84, 217);
+}
+a :hover{
+    color: #371ce8;
+    transform: scale(1.05);
+    text-decoration: underline;
+}
 /* Team Section Styling */
 .team-section {
     margin-top: 40px;
@@ -96,12 +121,14 @@ body {
     color: #333;
 }
 .members-info {
-    background-color: #20054a;
+    background-color: #4324f1;
     color: rgb(160, 222, 231);
     border: none;
     padding: 15px 30px;
     margin: 70px;
     font-size: 1.5rem;
+    font-weight: bold;
+
     border-radius: 25px;
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.2s ease;
