@@ -54,3 +54,40 @@ body {
     background-color: #4a00e0;
     transform: scale(1);
 }
+.team-section {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.team-section h2 {
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 20px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.team-member {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.team-member img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.team-member p {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #333;
+}
